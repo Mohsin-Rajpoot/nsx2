@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/nx2">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route
