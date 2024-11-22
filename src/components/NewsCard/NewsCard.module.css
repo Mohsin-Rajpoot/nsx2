@@ -1,0 +1,67 @@
+.card {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Ensure the notification can be positioned relative to this */
+}
+
+.cardImage {
+  aspect-ratio: 1.49;
+  width: 100%;
+  object-fit: contain;
+}
+
+.cardContent {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.date {
+  font: 18px/1;
+  color: #b6bcbf;
+}
+
+.title {
+  color: #1a1b22;
+  font: 22px/24px;
+}
+
+.description {
+  color: #1a1b22;
+  font: 16px/22px Roboto, sans-serif;
+}
+
+.source {
+  color: #b6bcbf;
+  font: 700 16px/1;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+.save {
+  border: none;
+  background: transparent;
+  align-items: flex-end;
+  text-align: right;
+  margin-right: 23px;
+  cursor: pointer;
+}
+
+.notification {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  width: auto;
+  max-width: 300px;
+}

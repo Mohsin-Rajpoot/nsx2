@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    max-width: 430px;
+    flex-direction: column;
+    color: #000;
+    font: 400 14px Inter, sans-serif;
+  }
+  
+  .formCard {
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 34px 36px;
+  }
+  
+  .title {
+    color: #1a1b22;
+    font: 900 24px Roboto, sans-serif;
+    margin: 0;
+  }
+  
+  .signInButton {
+    border-radius: 100px;
+    background: #e6e8eb;
+    width: 100%;
+    margin: 39px 0 0;
+    color: #b6bcbf;
+    text-align: center;
+    padding: 20px;
+    font: 500 18px Roboto, sans-serif;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signUpText {
+    text-align: center;
+    align-self: center;
+    margin: 16px 0 0;
+  }
+  
+  .signUpLink {
+    color: #2f71e5;
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+  }

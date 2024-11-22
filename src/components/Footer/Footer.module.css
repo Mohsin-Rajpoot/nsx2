@@ -1,0 +1,35 @@
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  .copyright {
+    color: #b6bcbf;
+    font: 400 16px/1 ;
+  }
+  
+  .footerNav {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+  
+  .footerLink {
+    color: #1a1b22;
+    text-decoration: none;
+    font: 400 18px/1 ;
+  }
+  
+  .socialIcon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  @media (max-width: 991px) {
+    
+    .footer {
+      padding: 20px;
+    }}

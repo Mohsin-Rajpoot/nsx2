@@ -1,0 +1,83 @@
+
+.navigation {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 40px;
+  }
+  
+  .logo {
+    font: 700 20px/1.2 'Roboto Slab', sans-serif;
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 19px;
+    align-items: center;
+  }
+
+
+.active {
+    color: white;
+  }
+  
+  .inactive {
+    color: black;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    font: 500 16px ;
+  }
+  
+  .signInButton {
+    border-radius: 100px;
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 13px 52px;
+    font: 500 16px ;
+    cursor: pointer;
+  }
+  
+  /* Popup background */
+.popupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* semi-transparent background */
+    display: none; /* Hidden by default */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure it's on top */
+  }
+  
+  /* Popup window */
+  .popupContent {
+    background-color:transparent;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .popupClose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  /* When the popup is active, display it */
+  .popupOverlay.active {
+    display: flex;
+  }
+  

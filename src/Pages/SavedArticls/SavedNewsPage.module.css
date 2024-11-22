@@ -1,0 +1,209 @@
+.savedNewsContainer {
+    background: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    background: #fff;
+    box-shadow: 0 -1px 0 0 #d1d2d6 inset;
+    padding: 19px 70px 0;
+  }
+  
+  .navigation {
+    display: flex;
+    max-width: 1234px;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font: 700 20px/1.2;
+    margin: 0;
+  }
+  
+  .navLinks {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    font: 500 18px/1;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: #1a1b22;
+  }
+  
+  .activeNavItem {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
+  
+  .activeIndicator {
+    height: 3px;
+    background: #1a1b22;
+  }
+  
+  .profileImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    border: 1px solid #1a1b22;
+  }
+  
+  .userStats {
+    padding: 40px 104px;
+  }
+  
+  .statsLabel {
+    color: rgba(26, 27, 34, 0.5);
+    font: 400 18px/1;
+  }
+  
+  .statsTitle {
+    color: #1a1b22;
+    font: 40px/46px;
+    margin: 28px 0;
+  }
+  
+  .keywordStats {
+    color: #1a1b22;
+    font: 400 18px/1;
+  }
+  
+  .articleGrid {
+    background: #f5f6f7;
+    padding: 62px 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .articleCard {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .cardImage {
+    height: 272px;
+    background-size: cover;
+    background-position: center;
+    padding: 24px;
+  }
+  
+  .cardHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .keyword {
+    background: #fff;
+    border-radius: 10px;
+    padding: 8px 22px;
+    font: 500 14px/24px;
+    color: #000;
+  }
+  
+  .deleteButton {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .deleteIcon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .cardContent {
+    padding: 24px;
+  }
+  
+  .date {
+    color: #b6bcbf;
+    font: 400 18px/1 ;
+  }
+  
+  .articleTitle {
+    color: #1a1b22;
+    font: 26px/30px ;
+    margin: 12px 0;
+  }
+  
+  .articleDescription {
+    color: #1a1b22;
+    font: 400 16px/22px ;
+    margin-bottom: 18px;
+  }
+  
+  .source {
+    color: #b6bcbf;
+    font: 700 16px/1 ;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+  }
+  
+  .footer {
+    background: #fff;
+    padding: 27px 70px;
+  }
+  
+  .footerContent {
+    display: flex;
+    max-width: 1232px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .copyright {
+    color: #b6bcbf;
+    font: 400 16px/1 ;
+  }
+  
+  .footerNav {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+  
+  .footerLink {
+    color: #1a1b22;
+    text-decoration: none;
+    font: 400 18px/1 ;
+  }
+  
+  .socialLink img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  @media (max-width: 991px) {
+    .header {
+      padding: 0 20px;
+    }
+    
+    .userStats {
+      padding: 20px;
+    }
+    
+    .articleGrid {
+      padding: 20px;
+      grid-template-columns: 1fr;
+    }
+    
+    .footer {
+      padding: 20px;
+    }
+    
+    .footerContent {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
